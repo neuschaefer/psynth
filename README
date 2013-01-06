@@ -1,0 +1,13 @@
+# PSYNTH
+
+Psynth (a name that has already been used by someone else) means "pulse synth".
+It is a software synthesizer with a very simple algorithm: Each voice produces
+a perfect pulse wave, and the output signal is just all voices XORed together.
+
+## Licensing
+
+For now I chose the GPLv2.
+
+## Downloading
+
+You can get psynth at https://github.com/neuschaefer/psynth.
