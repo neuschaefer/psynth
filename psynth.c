@@ -1,4 +1,5 @@
 /* psynth - A simple pulse wave softsynth */
+/* Copyright (C) 2013  Jonathan Neuschäfer. See LICENSE. */
 
 #include <stdio.h>
 #include <stdlib.h>
