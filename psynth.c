@@ -147,7 +147,7 @@ static void process_midi(jack_nframes_t nframes)
 		} else if ((event.buffer[0] & 0xf0) == 0xb0) { /* control change */
 			switch (event.buffer[1]) {
 			case 7: /* volume */
-				state.base_amp = 1.0 * event.buffer[2] * (1./128);
+				state.base_amp = 0.5 * event.buffer[2] * (1./128);
 				break;
 			default: /* nop */
 				break;
